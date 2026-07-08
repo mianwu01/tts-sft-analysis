@@ -7,3 +7,5 @@ __pycache__/
 *.pyc
 *.log
 .DS_Store
+*.done
+seed11.done

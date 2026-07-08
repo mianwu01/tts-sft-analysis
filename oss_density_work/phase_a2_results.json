@@ -1,0 +1,17 @@
+{
+  "trace": {
+    "r": 0.752,
+    "mae": 2.24,
+    "bias": -0.83,
+    "freeze_F1": 0.79,
+    "freeze_thr": 8.0,
+    "freeze_P": 0.85,
+    "freeze_R": 0.73
+  },
+  "low_k1_calib": {
+    "a": 0.824,
+    "b": 1.728,
+    "raw_mae": 2.39,
+    "loo_mae": 2.59
+  }
+}

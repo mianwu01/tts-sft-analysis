@@ -1,0 +1,46 @@
+{
+  "cfg": {
+    "n_prob": 4,
+    "pop": 16,
+    "conc": 64,
+    "max_tok": 16384
+  },
+  "results": {
+    "low": {
+      "wall_s": 76.6,
+      "n": 64,
+      "ok": 64,
+      "tot_out_tok": 145150,
+      "throughput_tok_s": 1895,
+      "mean_tok_per_cand": 2268,
+      "mean_lat_s": 48.2,
+      "capped_pct": 0.0,
+      "has_code_pct": 100.0,
+      "sec_per_problem_16": 19.1
+    },
+    "medium": {
+      "wall_s": 138.0,
+      "n": 64,
+      "ok": 64,
+      "tot_out_tok": 223528,
+      "throughput_tok_s": 1619,
+      "mean_tok_per_cand": 3493,
+      "mean_lat_s": 75.5,
+      "capped_pct": 0.0,
+      "has_code_pct": 100.0,
+      "sec_per_problem_16": 34.5
+    },
+    "high": {
+      "wall_s": 400.6,
+      "n": 64,
+      "ok": 64,
+      "tot_out_tok": 722023,
+      "throughput_tok_s": 1802,
+      "mean_tok_per_cand": 11282,
+      "mean_lat_s": 297.7,
+      "capped_pct": 29.7,
+      "has_code_pct": 73.4,
+      "sec_per_problem_16": 100.2
+    }
+  }
+}
