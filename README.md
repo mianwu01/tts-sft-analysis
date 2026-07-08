@@ -16,6 +16,7 @@ Dynamic **loop0 → loop1 → loop2** bucket-transition analysis (vs. the static
 ### `data_verification/oss120b_generation_cost_estimate/`
 gpt-oss-120B **SqueezeEvolve-generation token & cost estimate** from the actual loop0–2 artifacts.
 - `oss120b_generation_cost_estimate.md` — method, measured token distributions, extrapolation to 44k, parametric cost table.
+- `provider_landscape_and_switch_plan.md` — real 2026-07 provider prices (incl. batch tiers), 5-loop cost recompute, Qwen3-4B acceleration options, alternative models (gpt-oss-20b / Qwen3-30B-A3B), migration + science caveats.
 - `runtime_throughput_estimate.md`, `sewon_reply_draft.md`, `cost_table.csv`, `token_stats_summary.json`, `tables/`, `scripts/`.
 
 ### `data_verification/unique_correct_audit/`
