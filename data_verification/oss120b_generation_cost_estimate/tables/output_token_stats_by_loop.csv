@@ -1,0 +1,10 @@
+source,loop,mean,median,p75,p90,p95,max,cap_hit_rate,n_denominator
+existing_Qwen3-4B_full_output,0,31058.1,36104.5,40515.2,40728.0,40785.0,41084.0,0.335,1280
+existing_Qwen3-4B_code_only,0,148.7,82.5,225.0,403.0,497.0,1479.0,,1280
+existing_Qwen3-4B_full_output,1,23465.6,21750.5,38321.0,40623.1,40711.0,41199.0,0.197,1280
+existing_Qwen3-4B_code_only,1,218.0,169.0,298.0,483.0,551.0,3399.0,,1280
+existing_Qwen3-4B_full_output,2,23377.8,22723.5,31623.5,40405.0,40666.1,40861.0,0.117,1280
+existing_Qwen3-4B_code_only,2,243.7,192.0,363.2,506.1,579.0,3011.0,,1280
+gpt-oss-120B_measured_effort=low,0(direct-gen),2268,,,,,,0.0,64
+gpt-oss-120B_measured_effort=medium,0(direct-gen),3493,,,,,,0.0,64
+gpt-oss-120B_measured_effort=high,0(direct-gen),11282,,,,,,0.297,64

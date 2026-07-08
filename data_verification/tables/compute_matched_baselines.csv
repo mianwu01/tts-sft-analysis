@@ -1,0 +1,5 @@
+SE setting,SE total budget/problem,SE coverage,independent baseline,budget,coverage,compute_matched?,hard-tail(ref244) SE vs indep,verified_from
+"pop-8 SE loop1 (l0∪l1), 1617",16,1384,pop-8 BoN (l0∪l0b),16,1373,YES (16v16),28 vs 0 (BoN defines the set — circular),recomputed from out.jsonl+cache
+"se16 SE loop1 pop, 1093",32,872,independent-32 (two 16-draws),32,850,YES (32v32),38 vs 1,recomputed
+"se16 SE≤loop1 union, 1093",32,887,independent-32,32,850,YES (32v32),58-problem union by loop2 (48) — see below,recomputed
+"se16 SE≤loop2 union, 1093",48,907,independent-48,48,MISSING,NO — baseline missing,51 vs MISSING,recomputed

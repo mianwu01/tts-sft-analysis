@@ -1,0 +1,7 @@
+bucket,STATIC_n_loop0,STATIC_loop2_mean_canon,STATIC_loop0to2_mean_delta_canon,DYNAMIC_n_transitions(pooled),DYNAMIC_mean_delta_canon,DYNAMIC_share_of_positive_gain
+0,243,0.761,0.761,464,0.308,0.058
+1,56,4.429,3.429,95,1.516,0.0657
+2-4,146,6.596,3.719,267,1.599,0.2152
+5-8,177,8.706,2.271,340,1.403,0.3036
+9-15,471,11.493,-0.858,969,-0.197,0.3575
+16,0,,,51,-1.608,0.0

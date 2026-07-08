@@ -1,0 +1,83 @@
+{
+  "n_problems": 1093,
+  "raw_correct_total_by_loop": {
+    "0": 8177,
+    "1": 10567,
+    "2": 11101
+  },
+  "canon_unique_total_by_loop": {
+    "0": 7432,
+    "1": 8446,
+    "2": 8350
+  },
+  "solved_any_by_loop": {
+    "0": 850,
+    "1": 872,
+    "2": 877
+  },
+  "native_vs_discovered_raw": {
+    "A": {
+      "n": 52,
+      "mean_next_raw": 3.712,
+      "mean_next_canon": 3.077,
+      "p_next_solved_retention": 0.827,
+      "p_next_drop_to_zero": 0.173,
+      "p_next_reaches_2-4": 0.404,
+      "p_next_reaches_5-8": 0.288,
+      "p_next_reaches_9-15": 0.058,
+      "p_next_reaches_16": 0.0
+    },
+    "B": {
+      "n": 18,
+      "mean_next_raw": 2.778,
+      "mean_next_canon": 2.444,
+      "p_next_solved_retention": 0.778,
+      "p_next_drop_to_zero": 0.222,
+      "p_next_reaches_2-4": 0.389,
+      "p_next_reaches_5-8": 0.222,
+      "p_next_reaches_9-15": 0.0,
+      "p_next_reaches_16": 0.0
+    }
+  },
+  "native_vs_discovered_canon": {
+    "A": {
+      "n": 56,
+      "mean_next_raw": 4.393,
+      "mean_next_canon": 2.982,
+      "p_next_solved_retention": 0.839,
+      "p_next_drop_to_zero": 0.161,
+      "p_next_reaches_2-4": 0.375,
+      "p_next_reaches_5-8": 0.286,
+      "p_next_reaches_9-15": 0.071,
+      "p_next_reaches_16": 0.036
+    },
+    "B": {
+      "n": 18,
+      "mean_next_raw": 2.778,
+      "mean_next_canon": 2.444,
+      "p_next_solved_retention": 0.778,
+      "p_next_drop_to_zero": 0.222,
+      "p_next_reaches_2-4": 0.389,
+      "p_next_reaches_5-8": 0.222,
+      "p_next_reaches_9-15": 0.0,
+      "p_next_reaches_16": 0.0
+    }
+  },
+  "hard_zero": {
+    "total": 243,
+    "first_solved_loop1": 37,
+    "first_solved_loop2": 20,
+    "never_through_loop2": 186,
+    "loop1_first_solved_followup": {
+      "n": 37,
+      "retained": 30,
+      "dropped_to_zero": 7,
+      "increased_raw": 24,
+      "increased_canon": 23
+    }
+  },
+  "predictiveness_R2_next_loop2_canon": {
+    "static_loop0_bucket_R2": 0.5818,
+    "dynamic_loop1_bucket_R2": 0.8127
+  }
+}

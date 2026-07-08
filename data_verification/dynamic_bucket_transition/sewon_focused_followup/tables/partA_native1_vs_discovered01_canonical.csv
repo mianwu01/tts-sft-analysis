@@ -1,0 +1,25 @@
+metric,A_native1,B_discovered_0to1
+n,56,18
+prev_mean_canon,1.0,1.0
+next_mean_canon,2.982,2.444
+next_median_canon,3.0,2.5
+mean_delta_canon,1.982,1.444
+median_delta_canon,2.0,1.5
+pct_stay_solved,0.839,0.778
+pct_drop_to_zero,0.161,0.222
+pct_add_canon_unique,0.679,0.611
+pct_stay_exactly_1,0.161,0.167
+pct_move_2-4,0.464,0.5
+pct_move_5-8,0.196,0.111
+pct_move_9-15,0.018,0.0
+pct_move_16,0.0,0.0
+ci_next_mean_canon,"[2.411, 3.589]","[1.611, 3.389]"
+ci_pct_add_canon,"[0.554, 0.786]","[0.389, 0.833]"
+
+next_bucket_dist_canon,A_native1,B_discovered_0to1
+bucket_0,0.1607,0.2222
+bucket_1,0.1607,0.1667
+bucket_2-4,0.4643,0.5
+bucket_5-8,0.1964,0.1111
+bucket_9-15,0.0179,0.0
+bucket_16,0.0,0.0

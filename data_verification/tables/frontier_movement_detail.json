@@ -1,0 +1,69 @@
+{
+  "overall": {
+    "0": {
+      "n": 1093,
+      "solvable": 850,
+      "raw_correct": 8177,
+      "pass@1": 0.4676,
+      "pass@2": 0.5934,
+      "pass@4": 0.6796,
+      "pass@8": 0.7384,
+      "pass@16": 0.7777,
+      "cum_budget_per_problem": 16
+    },
+    "1": {
+      "n": 1093,
+      "solvable": 872,
+      "raw_correct": 10567,
+      "pass@1": 0.6042,
+      "pass@2": 0.6932,
+      "pass@4": 0.7462,
+      "pass@8": 0.7778,
+      "pass@16": 0.7978,
+      "cum_budget_per_problem": 32
+    },
+    "2": {
+      "n": 1093,
+      "solvable": 877,
+      "raw_correct": 11101,
+      "pass@1": 0.6348,
+      "pass@2": 0.7127,
+      "pass@4": 0.7575,
+      "pass@8": 0.7845,
+      "pass@16": 0.8024,
+      "cum_budget_per_problem": 48
+    }
+  },
+  "loop3_partial": {
+    "n_fully_graded": 258,
+    "n_with_ck": 486,
+    "solvable_l3": 213,
+    "solvable_l2_same_subset": 214,
+    "newly_solved_l3_vs_l2": 2,
+    "lost_l2_to_l3": 3
+  },
+  "ref244": {
+    "n": 244,
+    "se16_loop0_solves": 1,
+    "se_loop1_solves": 38,
+    "se_loop2_solves": 51,
+    "se_loop1_union_loop0": 38,
+    "se_loop2_union_prior": 58,
+    "reference16_solves": 0,
+    "independent32_union_solves": 1,
+    "loop3_graded_subset_n": 45,
+    "se_loop3_solves_graded_subset": 9
+  },
+  "run243": {
+    "n": 243,
+    "se16_loop0_solves": 0,
+    "se_loop1_solves": 37,
+    "se_loop2_solves": 50,
+    "se_loop1_union_loop0": 37,
+    "se_loop2_union_prior": 57,
+    "reference16_solves": 0,
+    "independent32_union_solves": 0,
+    "loop3_graded_subset_n": 45,
+    "se_loop3_solves_graded_subset": 9
+  }
+}

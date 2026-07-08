@@ -1,0 +1,19 @@
+{
+  "ref244": {
+    "n": 244,
+    "loop1_pos": 38,
+    "loop2_pos": 51,
+    "loop2_pos_but_loop1_zero": 20,
+    "union_loop1_2": 58,
+    "union_loop0_1_2": 58,
+    "se16_loop0_pos": 1,
+    "independent32_union": 1
+  },
+  "run243": {
+    "n": 243,
+    "loop1_pos": 37,
+    "loop2_pos": 50,
+    "reference16_pos(second independent draw)": 0,
+    "independent32_union": 0
+  }
+}

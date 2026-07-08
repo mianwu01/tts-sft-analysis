@@ -1,0 +1,20 @@
+{
+  "auc_per_problem_averaged": {
+    "qwen_svd_ind": 0.366,
+    "qwen_svd_se": 0.453,
+    "qwen_v1_ind": 0.634,
+    "qwen_v1_se": 0.62,
+    "gptoss_svd_ind": 0.826,
+    "gptoss_svd_se": 0.713,
+    "gptoss_v1_ind": 0.909,
+    "gptoss_v1_se": 0.801
+  },
+  "note": "summary AUC numbers = per-problem-averaged (gptoss quoted on SE pool; qwen SVD 0.41 = pool mean of 0.366/0.453)",
+  "grading_flake_adjudication": {
+    "candidate": "cf-00000::ind16::14",
+    "grades_json": "failed",
+    "run_cache": "passed 50/50",
+    "fresh_reexec_x2": "passed 50/50",
+    "verdict": "eval.json 0.80 correct; grades.json has 1 stale fail"
+  }
+}

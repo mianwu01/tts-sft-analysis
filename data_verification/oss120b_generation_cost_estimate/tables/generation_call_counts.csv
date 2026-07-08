@@ -1,0 +1,5 @@
+loop,n_problems,candidates_per_problem,generation_calls,degenerate_outputs(capped/no-code),denominator_note
+0,1093,16,17488,6134,1093 problems x 16 candidates
+1,1093,16,17488,2688,1093 problems x 16 candidates
+2,1093,16,17488,1790,1093 problems x 16 candidates
+TOTAL,1093,16,52464,10612,1093 x 3 loops x 16 = 52464

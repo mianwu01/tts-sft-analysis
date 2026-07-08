@@ -1,0 +1,5 @@
+category,definition,count,fraction_of_hard_zero(denominator=243)
+hard_zero_total,loop0 raw_correct==0,243,1.0
+first_solved_loop1,"loop0==0, loop1>0",37,0.1523
+first_solved_loop2,"loop0==0, loop1==0, loop2>0",20,0.0823
+never_solved_through_loop2,"loop0==0, loop1==0, loop2==0",186,0.7654

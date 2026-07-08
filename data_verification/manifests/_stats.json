@@ -1,0 +1,8 @@
+{
+  "final_correct_only": 9141,
+  "evolution_chain": 136,
+  "boundary_only": 6004,
+  "all_problem": 22894,
+  "positive_negative_pairs": 3984,
+  "verifier_filtered": 756
+}

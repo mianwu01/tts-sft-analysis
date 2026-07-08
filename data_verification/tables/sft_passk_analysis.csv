@@ -1,0 +1,10 @@
+arm,format,source,selection,train_rows,pass@1,pass@2,pass@4,pass@8,pass@16,cap_hit_rate,consistent_with_repo_summary,eval_dir
+BASE Qwen3-4B (untrained),-,-,-,-,0.4132,0.4575,0.4822,0.5022,0.5267,0.4432,True,(shared within every compare_summary)
+final-only loop1-all (ck141),final-only,"loop1(SE,pop8)",all-unique,16556,0.1312,0.174,0.2162,0.2524,0.2824,0.0,True,run1_A_lora_ck141
+final-only loop1-all (ck282),final-only,"loop1(SE,pop8)",all-unique,16556,0.135,0.18,0.2289,0.2712,0.2977,0.0,True,run1_A_lora_ck282
+E1 code-only loop1-all,empty-think code-only,"loop1(SE,pop16)",all-unique,9025,0.3965,0.4549,0.4938,0.5255,0.5573,0.1913,True,empty_think_A_lora_ck565
+E3 code-only loop0-all,empty-think code-only,loop0(independent),all-unique,3889,0.4103,0.468,0.5041,0.5351,0.5649,0.26,True,emptythink_loop0_A_lora_ck243
+E3b code-only loop0-best,empty-think code-only,loop0(independent),best-per-problem,804,0.4361,0.4926,0.5337,0.5684,0.5954,0.24,True,emptythink_loop0_B_best_lora_ck150
+E1b code-only loop1-best,empty-think code-only,"loop1(SE,pop16)",best-per-problem,872,0.437,0.4906,0.5276,0.5575,0.5878,0.2624,True,emptythink_loop1_B_lora_ck164
+E2 real-CoT loop0-all,real CoT,loop0(independent),all-unique,1846,0.1999,0.2317,0.2533,0.2691,0.2824,0.7791,True,realthink_loop0_A_lora_ck116
+E4 real-CoT loop0-best,real CoT,loop0(independent),best-per-problem,371,0.2032,0.238,0.26,0.2742,0.2901,0.7681,True,realthink_loop0_B_lora_ck72

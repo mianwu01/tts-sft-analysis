@@ -1,0 +1,66 @@
+{
+  "pop8_reachability_verify": {
+    "recomputed": {
+      "N": 1617,
+      "cats": {
+        "both": 1356,
+        "only_SE": 28,
+        "only_BoN": 17,
+        "neither": 216
+      },
+      "coverage": {
+        "loop0": 1327,
+        "loop1": 1367,
+        "loop0b": 1326,
+        "SE": 1384,
+        "BoN": 1373
+      },
+      "cache_misses": 0
+    },
+    "repo_json": {
+      "N": 1617,
+      "cats": {
+        "both": 1356,
+        "only_SE": 28,
+        "only_BoN": 17,
+        "neither": 216
+      },
+      "coverage": {
+        "loop0": 1327,
+        "loop1": 1367,
+        "loop0b": 1326,
+        "SE": 1384,
+        "BoN": 1373
+      }
+    },
+    "match": true
+  },
+  "hard_tail_ref244": {
+    "n_ref244": 244,
+    "pop8_SE16gen_solves": 28,
+    "pop8_BoN16gen_solves(by construction 0)": 0,
+    "pop8_loop1only_solves": 28,
+    "se16_loop0_solves": 1,
+    "se16_loop1_solves(cum32)": 38,
+    "se16_loop2_solves(cum48)": 51,
+    "independent32_solves": 1,
+    "overlap_pop8SE_and_se16loop1": 20
+  },
+  "aggregate_matched_1093": {
+    "n": 1093,
+    "SE32_union_l0_l1": 887,
+    "SE48_union_l0_l1_l2": 907,
+    "SE_loop1_pop_only": 872,
+    "independent16_se16loop0": 850,
+    "independent16_reference": 849,
+    "independent32_union": 850,
+    "independent48": null
+  },
+  "aggregate_matched_1617_pop8": {
+    "n": 1617,
+    "SE16_pop8": 1384,
+    "BoN16_pop8": 1373,
+    "only_SE": 28,
+    "only_BoN": 17
+  }
+}

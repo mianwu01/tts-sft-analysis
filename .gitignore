@@ -1,0 +1,9 @@
+# Large regenerable data artifact (80M) — rebuild via
+# data_verification/unique_correct_audit/scripts/harvest_correct_hashes.py
+data_verification/unique_correct_audit/per_problem_hashes.json
+
+# Python / logs / scratch
+__pycache__/
+*.pyc
+*.log
+.DS_Store

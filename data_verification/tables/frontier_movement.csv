@@ -1,0 +1,7 @@
+setting,n_problems,samples_per_problem_this_stage,cumulative_budget,solvable(any-of-pop),pass@1,pass@16(pop),ref244_solved,run243_solved,compute_matched_vs,source
+reference independent-16 (pop-8 l0∪l0b),1617,16,16,1373,,,0,0,se16 loop0 (16),sharded_qwen3_4b/sh*/loop0*_out.jsonl + reachability_bon cache
+SE loop0 (= independent-16 draw),1093,16,16,850,0.4676,0.7777,1,0,-,se16/ck/*loop0.json + se16 grading cache (recomputed)
+SE loop1 (evolved pop),1093,16,32,872,0.6042,0.7978,38,37,independent-32 (union of the two 16-draws),se16/ck/*loop1.json + se16 grading cache (recomputed)
+SE loop2 (evolved pop),1093,16,48,877,0.6348,0.8024,51,50,MISSING independent-48,se16/ck/*loop2.json + se16 grading cache (recomputed)
+independent-32 (reference-16 ∪ se16-loop0),1093,32,32,850,,,1,0,SE loop1 (32 cumulative),union of the two independent draws
+SE loop3 (partial grading),258,16,64,213,,,9,9,MISSING independent-64,"se16 sh2,sh3,redo_* loop3 ck (2868/7776 candidates ungraded)"

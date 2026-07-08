@@ -1,0 +1,307 @@
+{
+  "n": 30,
+  "agree": 30,
+  "agree_rate": 1.0,
+  "rows": [
+    {
+      "pid": "cf-01255",
+      "loop": 2,
+      "cand": 14,
+      "cached_passed": true,
+      "fresh_passed": true,
+      "agree": true,
+      "cached_np": 11,
+      "fresh_np": 11
+    },
+    {
+      "pid": "cf-00334",
+      "loop": 2,
+      "cand": 6,
+      "cached_passed": true,
+      "fresh_passed": true,
+      "agree": true,
+      "cached_np": 15,
+      "fresh_np": 15
+    },
+    {
+      "pid": "cf-01596",
+      "loop": 1,
+      "cand": 10,
+      "cached_passed": true,
+      "fresh_passed": true,
+      "agree": true,
+      "cached_np": 22,
+      "fresh_np": 22
+    },
+    {
+      "pid": "cf-01008",
+      "loop": 1,
+      "cand": 4,
+      "cached_passed": true,
+      "fresh_passed": true,
+      "agree": true,
+      "cached_np": 50,
+      "fresh_np": 50
+    },
+    {
+      "pid": "cf-01579",
+      "loop": 2,
+      "cand": 14,
+      "cached_passed": true,
+      "fresh_passed": true,
+      "agree": true,
+      "cached_np": 2,
+      "fresh_np": 2
+    },
+    {
+      "pid": "cf-00934",
+      "loop": 0,
+      "cand": 9,
+      "cached_passed": true,
+      "fresh_passed": true,
+      "agree": true,
+      "cached_np": 50,
+      "fresh_np": 50
+    },
+    {
+      "pid": "cf-00922",
+      "loop": 1,
+      "cand": 1,
+      "cached_passed": true,
+      "fresh_passed": true,
+      "agree": true,
+      "cached_np": 23,
+      "fresh_np": 23
+    },
+    {
+      "pid": "cf-00906",
+      "loop": 2,
+      "cand": 1,
+      "cached_passed": true,
+      "fresh_passed": true,
+      "agree": true,
+      "cached_np": 35,
+      "fresh_np": 35
+    },
+    {
+      "pid": "cf-00902",
+      "loop": 0,
+      "cand": 8,
+      "cached_passed": true,
+      "fresh_passed": true,
+      "agree": true,
+      "cached_np": 2,
+      "fresh_np": 2
+    },
+    {
+      "pid": "cf-01018",
+      "loop": 2,
+      "cand": 6,
+      "cached_passed": true,
+      "fresh_passed": true,
+      "agree": true,
+      "cached_np": 33,
+      "fresh_np": 33
+    },
+    {
+      "pid": "cf-00223",
+      "loop": 1,
+      "cand": 9,
+      "cached_passed": true,
+      "fresh_passed": true,
+      "agree": true,
+      "cached_np": 12,
+      "fresh_np": 12
+    },
+    {
+      "pid": "cf-00857",
+      "loop": 0,
+      "cand": 13,
+      "cached_passed": true,
+      "fresh_passed": true,
+      "agree": true,
+      "cached_np": 50,
+      "fresh_np": 50
+    },
+    {
+      "pid": "cf-01070",
+      "loop": 1,
+      "cand": 5,
+      "cached_passed": true,
+      "fresh_passed": true,
+      "agree": true,
+      "cached_np": 24,
+      "fresh_np": 24
+    },
+    {
+      "pid": "cf-01232",
+      "loop": 2,
+      "cand": 2,
+      "cached_passed": true,
+      "fresh_passed": true,
+      "agree": true,
+      "cached_np": 27,
+      "fresh_np": 27
+    },
+    {
+      "pid": "cf-01567",
+      "loop": 1,
+      "cand": 10,
+      "cached_passed": true,
+      "fresh_passed": true,
+      "agree": true,
+      "cached_np": 50,
+      "fresh_np": 50
+    },
+    {
+      "pid": "cf-00726",
+      "loop": 1,
+      "cand": 7,
+      "cached_passed": true,
+      "fresh_passed": true,
+      "agree": true,
+      "cached_np": 31,
+      "fresh_np": 31
+    },
+    {
+      "pid": "cf-00908",
+      "loop": 0,
+      "cand": 6,
+      "cached_passed": true,
+      "fresh_passed": true,
+      "agree": true,
+      "cached_np": 43,
+      "fresh_np": 43
+    },
+    {
+      "pid": "cf-01183",
+      "loop": 1,
+      "cand": 15,
+      "cached_passed": true,
+      "fresh_passed": true,
+      "agree": true,
+      "cached_np": 9,
+      "fresh_np": 9
+    },
+    {
+      "pid": "cf-00308",
+      "loop": 1,
+      "cand": 11,
+      "cached_passed": true,
+      "fresh_passed": true,
+      "agree": true,
+      "cached_np": 10,
+      "fresh_np": 10
+    },
+    {
+      "pid": "cf-01553",
+      "loop": 2,
+      "cand": 4,
+      "cached_passed": true,
+      "fresh_passed": true,
+      "agree": true,
+      "cached_np": 42,
+      "fresh_np": 42
+    },
+    {
+      "pid": "cf-00842",
+      "loop": 2,
+      "cand": 6,
+      "cached_passed": false,
+      "fresh_passed": false,
+      "agree": true,
+      "cached_np": 0,
+      "fresh_np": 0
+    },
+    {
+      "pid": "cf-01302",
+      "loop": 1,
+      "cand": 2,
+      "cached_passed": false,
+      "fresh_passed": false,
+      "agree": true,
+      "cached_np": 5,
+      "fresh_np": 5
+    },
+    {
+      "pid": "cf-00391",
+      "loop": 2,
+      "cand": 8,
+      "cached_passed": false,
+      "fresh_passed": false,
+      "agree": true,
+      "cached_np": 0,
+      "fresh_np": 0
+    },
+    {
+      "pid": "cf-01205",
+      "loop": 1,
+      "cand": 3,
+      "cached_passed": false,
+      "fresh_passed": false,
+      "agree": true,
+      "cached_np": 24,
+      "fresh_np": 24
+    },
+    {
+      "pid": "cf-00473",
+      "loop": 2,
+      "cand": 3,
+      "cached_passed": false,
+      "fresh_passed": false,
+      "agree": true,
+      "cached_np": 1,
+      "fresh_np": 1
+    },
+    {
+      "pid": "cf-00842",
+      "loop": 0,
+      "cand": 12,
+      "cached_passed": false,
+      "fresh_passed": false,
+      "agree": true,
+      "cached_np": 0,
+      "fresh_np": 0
+    },
+    {
+      "pid": "cf-00651",
+      "loop": 0,
+      "cand": 14,
+      "cached_passed": false,
+      "fresh_passed": false,
+      "agree": true,
+      "cached_np": 1,
+      "fresh_np": 1
+    },
+    {
+      "pid": "cf-00286",
+      "loop": 1,
+      "cand": 2,
+      "cached_passed": false,
+      "fresh_passed": false,
+      "agree": true,
+      "cached_np": 5,
+      "fresh_np": 5
+    },
+    {
+      "pid": "cf-00752",
+      "loop": 2,
+      "cand": 15,
+      "cached_passed": false,
+      "fresh_passed": false,
+      "agree": true,
+      "cached_np": 2,
+      "fresh_np": 2
+    },
+    {
+      "pid": "cf-00514",
+      "loop": 0,
+      "cand": 2,
+      "cached_passed": false,
+      "fresh_passed": false,
+      "agree": true,
+      "cached_np": 2,
+      "fresh_np": 2
+    }
+  ]
+}

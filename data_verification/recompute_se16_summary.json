@@ -1,0 +1,49 @@
+{
+  "n_problems_se16": 1093,
+  "duplicate_ids_across_shards": 0,
+  "per_loop": {
+    "loop0": {
+      "n_problems": 1093,
+      "solvable": 850,
+      "raw_correct": 8177,
+      "unique_correct": 7584,
+      "cache_miss_candidates": 0,
+      "nocode_candidates": 0,
+      "ncand_total": 17488
+    },
+    "loop1": {
+      "n_problems": 1093,
+      "solvable": 872,
+      "raw_correct": 10567,
+      "unique_correct": 9015,
+      "cache_miss_candidates": 0,
+      "nocode_candidates": 0,
+      "ncand_total": 17488
+    },
+    "loop2": {
+      "n_problems": 1093,
+      "solvable": 877,
+      "raw_correct": 11101,
+      "unique_correct": 9085,
+      "cache_miss_candidates": 0,
+      "nocode_candidates": 0,
+      "ncand_total": 17488
+    },
+    "loop3": {
+      "n_problems": 486,
+      "solvable": 322,
+      "raw_correct": 3461,
+      "unique_correct": 2415,
+      "cache_miss_candidates": 2868,
+      "nocode_candidates": 0,
+      "ncand_total": 7776
+    }
+  },
+  "repo_csv_diff_rows": 0,
+  "pop8_provenance": {
+    "n": 1617,
+    "match_pass16_by_id": 1617,
+    "match_rate": 1.0,
+    "cache_misses": 0
+  }
+}

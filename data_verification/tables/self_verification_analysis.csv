@@ -1,0 +1,12 @@
+run,judge,selector,pool,n,top1_fullpass_recomputed,top3_recomputed,eval_json_top1,match_eval_json,auc_per_candidate,accept_precision,accept_recall,accept_f1,est_count_pearson_r,max_overclaim(est-true),sat_conf_tp_fp_fn_tn(@>=8),pairwise_acc_mixed,status
+pilot100c_svd_independent16,Qwen3-4B,SVD,ind16,100,0.27,0.27,0.27,True,0.432,0.546,0.123,0.201,0.101,8,5/1/55/39,,
+pilot100c_svd_se_loop1_16,Qwen3-4B,SVD,se16,100,0.29,0.3,0.29,True,0.533,0.824,0.136,0.234,0.187,6,8/0/68/24,,
+pilot100c_v1_independent16,Qwen3-4B,V1,ind16,100,0.58,0.71,0.58,True,0.586,,,,,,,0.751,
+pilot100c_v1_v2_se16,Qwen3-4B,V1,se16,100,0.74,0.81,0.74,True,0.547,,,,,,,0.622,
+pilot100c_llmv_independent16,Qwen3-4B,LLM-verifier,ind16,100,0.55,0.67,0.55,True,0.511,,,,,,,,
+independent16_svd_gptoss120b,gpt-oss-120b,SVD,ind16,100,0.65,0.65,0.65,True,0.917,0.967,0.677,0.797,0.774,8,41/1/19/39,,
+independent16_v1_gptoss120b,gpt-oss-120b,V1,ind16,100,0.79,0.81,0.8,False,0.757,,,,,,,0.906,
+se_loop1_16_svd_gptoss120b,gpt-oss-120b,SVD,se16,100,0.64,0.67,0.64,True,0.868,0.956,0.636,0.764,0.647,3,48/0/28/24,,
+se_loop1_16_v1_gptoss120b,gpt-oss-120b,V1,se16,100,0.81,0.84,0.81,True,0.654,,,,,,,0.832,
+pilot100c_v1pp_lite_v2_se16,Qwen3-4B,V1++lite,se16,100,0.73,0.81,0.73,True,0.544,0.7,0.131,0.221,-0.085,4,0/0/76/24,0.608,
+pilot100c_v1pp_edge_v2_se16,Qwen3-4B,V1++edge,se16,100,0.7,0.82,0.7,True,0.553,0.658,0.022,0.043,0.049,3,0/0/76/24,0.63,

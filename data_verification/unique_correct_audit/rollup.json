@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "n_problems": 1093,
+    "loops": [
+      0,
+      1,
+      2
+    ],
+    "cache": "outputs/grading_cache/se16.jsonl",
+    "pool": "data/openthoughts114k_codeforces_stdin_clean.jsonl",
+    "checkpoints": "outputs/openthoughts114k_codeforces_full_datagen/se16/<shard>/ck/*_loop{0,1,2}.json",
+    "shards": [
+      "sh0",
+      "sh1",
+      "sh2",
+      "sh3",
+      "sh4",
+      "sh7",
+      "sh8",
+      "redo_sh0",
+      "redo_sh1",
+      "redo_sh2",
+      "redo_sh3",
+      "redo_sh4",
+      "redo_sh5"
+    ],
+    "fallback_canon_candidates": 0
+  },
+  "bucket_counts": {
+    "0": 243,
+    "1": 52,
+    "2-4": 124,
+    "5-8": 147,
+    "9-15": 527
+  },
+  "totals_by_loop": {
+    "0": {
+      "n_problems": 1093,
+      "n_solved": 850,
+      "sum_raw": 8177,
+      "sum_exact_unique": 7660,
+      "sum_canonical_unique": 7432,
+      "sum_new_unique": 7432,
+      "pooled_dup_factor": 1.1002,
+      "pooled_frac_dup": 0.0911
+    },
+    "1": {
+      "n_problems": 1093,
+      "n_solved": 872,
+      "sum_raw": 10567,
+      "sum_exact_unique": 9173,
+      "sum_canonical_unique": 8446,
+      "sum_new_unique": 6484,
+      "pooled_dup_factor": 1.2511,
+      "pooled_frac_dup": 0.2007
+    },
+    "2": {
+      "n_problems": 1093,
+      "n_solved": 877,
+      "sum_raw": 11101,
+      "sum_exact_unique": 9262,
+      "sum_canonical_unique": 8350,
+      "sum_new_unique": 6094,
+      "pooled_dup_factor": 1.3295,
+      "pooled_frac_dup": 0.2478
+    }
+  },
+  "erosion": [
+    {
+      "bucket_loop0": "0",
+      "n_solved_loop1": 37,
+      "n_solved_loop2": 50,
+      "loop1_solved_lost_all_at_loop2": 7,
+      "loop2_retained_a_prev_canonical": 17,
+      "loop2_introduced_new_canonical": 49,
+      "loop2_only_amplified_no_new": 1
+    },
+    {
+      "bucket_loop0": "1",
+      "n_solved_loop1": 43,
+      "n_solved_loop2": 41,
+      "loop1_solved_lost_all_at_loop2": 4,
+      "loop2_retained_a_prev_canonical": 23,
+      "loop2_introduced_new_canonical": 38,
+      "loop2_only_amplified_no_new": 3
+    },
+    {
+      "bucket_loop0": "2-4",
+      "n_solved_loop1": 119,
+      "n_solved_loop2": 116,
+      "loop1_solved_lost_all_at_loop2": 5,
+      "loop2_retained_a_prev_canonical": 97,
+      "loop2_introduced_new_canonical": 111,
+      "loop2_only_amplified_no_new": 5
+    },
+    {
+      "bucket_loop0": "5-8",
+      "n_solved_loop1": 147,
+      "n_solved_loop2": 144,
+      "loop1_solved_lost_all_at_loop2": 3,
+      "loop2_retained_a_prev_canonical": 126,
+      "loop2_introduced_new_canonical": 135,
+      "loop2_only_amplified_no_new": 9
+    },
+    {
+      "bucket_loop0": "9-15",
+      "n_solved_loop1": 526,
+      "n_solved_loop2": 526,
+      "loop1_solved_lost_all_at_loop2": 0,
+      "loop2_retained_a_prev_canonical": 473,
+      "loop2_introduced_new_canonical": 463,
+      "loop2_only_amplified_no_new": 63
+    }
+  ],
+  "hard_zero": {
+    "n": 243,
+    "solved_by_loop": {
+      "0": 0,
+      "1": 37,
+      "2": 50
+    },
+    "ever_solved": 57,
+    "ever_solved_exactly1_canonical_at_last_solved_loop": 19,
+    "ever_solved_multi_canonical_at_last_solved_loop": 38,
+    "loop2_solved_with_new_canonical_vs_loop1": 49,
+    "loop2_solved_not_solved_at_loop1": 20
+  }
+}
